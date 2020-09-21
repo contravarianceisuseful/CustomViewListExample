@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomViewListTest.Views.PersonFullView"
+             xmlns:views ="clr-namespace:CustomViewListTest.Views">
+    <StackLayout>
+        <Label Text="This page shows a person's details"></Label>
+        <Label x:Name="PersonName"></Label>
+        <Label x:Name="PersonAge"></Label>
+        <Label Text="End"></Label>
+
+
+    </StackLayout>
+</ContentPage>

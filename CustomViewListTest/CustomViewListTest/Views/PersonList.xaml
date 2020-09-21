@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomViewListTest.Views.PersonList"
+             xmlns:views ="clr-namespace:CustomViewListTest.Views">
+    <StackLayout x:Name="personStack">
+        <Label Text="List of People"></Label>
+    </StackLayout>
+
+</ContentPage>

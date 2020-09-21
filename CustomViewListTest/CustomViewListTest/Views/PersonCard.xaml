@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomViewListTest.Views.PersonCard"
+             xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <ContentView.ControlTemplate>
+        <ControlTemplate>
+            <Frame BorderColor="#3F3F3F" Margin="2">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapped"/>
+                </Frame.GestureRecognizers>
+                <StackLayout>
+                    <Label Text="{TemplateBinding Name}"></Label>
+                    <Label Text="{TemplateBinding Age}"></Label>
+                </StackLayout>
+            </Frame>
+        </ControlTemplate>
+    </ContentView.ControlTemplate>
+</ContentView>
